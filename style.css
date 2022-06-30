@@ -1,0 +1,122 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f9fafc;
+    font-size: 100%;}
+header{
+    /* padding: 5px; */
+    display: flex;
+    display: inline; 
+    margin: 0;
+}
+li{
+    padding: 1em;
+    padding-left: 0;
+    color: #69696a; 
+    list-style-type: none;
+}
+.chirpus{
+    color: #000;
+}
+a:link{
+    text-decoration: none;
+    color: #69696a;
+}
+button{
+    background-color: #000;
+    color: #FFF;
+    padding: 10px;
+    width: 100%;
+    border-radius: 20px;
+    margin: 10px;
+}
+h1, h3{
+    color: #000;
+    font-size: 100%;
+}
+h2{
+    color: #000;
+    font-size: 250%;
+}
+footer{
+    display: inline;
+    background-color: rgba(247, 193, 162, 0.7);
+    color: #69696a; 
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.nav-items{
+    padding: 20px; 
+    /* margin-left: auto; */
+} 
+.verticalLine{
+    border-left: thick solid;
+    color: #69696a;
+    padding: 10px;
+}
+.navbutton{
+    width: 100%;
+}
+
+
+@media screen and (min-width: 768px){
+    li{
+        display: inline;
+        padding: 5px;
+    }
+    header{
+        display: flex;
+    }
+    .navBar{
+        margin-left: auto;
+        margin-top: auto;
+    }
+    .navbutton{
+        width: auto;
+        display: flex;
+    }
+    p{
+        width: 50%;
+    }
+    button{
+        width: 50%;
+    }
+    .largeCircle{
+        height: 200px;
+        width: 200px;
+        background-color: rgba(247, 136, 167, 0.6);
+        border-radius: 50%;
+        position: fixed;
+        right: 140px;
+        top: 225px;
+    }
+    .mediumCircle{
+        height: 150px;
+        width: 150px;
+        background-color: rgba(247, 193, 162, 0.7);
+        border-radius: 50%;
+        position: fixed;
+        right: 80px;
+        top: 350px;
+    }
+    .smallCircle{
+        height: 125px;
+        width: 125px;
+        background-color: rgba(207, 130, 213, 0.6);
+        border-radius: 50%;
+        position: fixed;
+        right: 65px;
+        top: 265px;
+    }
+    .flex-container{
+        display: flex;
+        /* flex-wrap: nowrap; */
+        justify-content: flex-end;
+        flex-direction: row;
+    }
+
+}
